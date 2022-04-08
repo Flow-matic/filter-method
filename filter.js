@@ -24,7 +24,7 @@ const people = [
 const oldEnough = people.filter(person => person.age >= 21);
 console.log(oldEnough);
 
-const paul = people.filter(p => p.name === 'paul');
+const paul = people.filter(p => p.name === "paul")[0];
 console.log(paul);
 
 // Complex Filtering
